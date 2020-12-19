@@ -1,10 +1,13 @@
 import { createMuiTheme, MuiThemeProvider } from "@material-ui/core";
 import React from "react";
-import "../styles/app.css";
 
 const theme = createMuiTheme({
 	typography: {
-		fontFamily: "SF Pro Text Regular",
+		fontFamily:
+			"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'Raleway', sans-serif",
+	},
+	overrides: {
+		MuiCssBaseline: {},
 	},
 });
 
